@@ -4,13 +4,21 @@
   font-size: 14px;
 }
 
-.profile-image{
+.contact{
   border: solid;
-  border-radius: 8px;
+  border-color: #5F5F5F;
+  border-radius: 10px;
+  background-color: #5F5F5F;
+  color: white;
+  width: 400px;
+  height: 600px;
 }
-
-#name{
-  font-size: 55px;
-  position:relative;
-
+.profile-image{
+  text-align:center;
+}
+.name{
+  text-align: center;
+}
+.list{
+  list-style-type: none;
 }
