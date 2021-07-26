@@ -17,6 +17,44 @@
   height: 600px;
 }
 .profile-image{
+  border: solid transparent;
+  border-image: round;
+}
+
+.circle-1 {
+  position:relative;
+  top:30px;
+  left: 350px;
+  width: 50px;
+  height: 50px;
+  background:#bc5a45;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle-2 {
+  position:relative;
+  top:115px;
+  left: 350px;
+  width: 50px;
+  height: 50px;
+  background:#bc5a45;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle-3 {
+  position:relative;
+  top: 200px;
+  left: 350px;
+  width: 50px;
+  height: 50px;
+  background:#bc5a45;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-image{
   text-align:center;
 }
 .name{
