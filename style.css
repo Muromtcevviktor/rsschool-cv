@@ -2,13 +2,16 @@
   font-family: Arial, Helvetica, sans-serif;
   line-height: 21px;
   font-size: 14px;
+  background-color: #F9F5E6;
 }
 
 .contact{
+  position:relative;
   border: solid;
   border-color: #5F5F5F;
   border-radius: 10px;
   background-color: #5F5F5F;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: white;
   width: 400px;
   height: 600px;
@@ -21,4 +24,54 @@
 }
 .list{
   list-style-type: none;
+}
+
+.profile{
+  position:absolute;
+  bottom: 450px;
+  left: 450px;
+  text-align: left;
+}
+
+.work-experience{
+  position:relative;
+  top: 30px;
+}
+
+.personal-info{
+  position:absolute;
+  bottom: 30px;
+  left: 450px;
+  text-align: left;
+}
+
+.languages{
+  position:relative;
+  top: 30px;
+}
+
+.footer{
+  text-align: center;
+  position: relative;
+  top: 450px;
+}
+
+.git-link{
+  position:relative;
+  bottom: 30px;
+  font-weight: bold;
+}
+
+.rss-logo{
+  position:relative;
+  bottom:30px;
+}
+
+.refrenes{
+  position:relative;
+}
+
+.year{
+  position:relative;
+  font-weight: bold; 
 }
